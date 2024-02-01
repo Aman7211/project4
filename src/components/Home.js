@@ -13,6 +13,7 @@ const Home = () => {
       }, []);
 
   return (
+    <>
     <div className='bg-black p-4 '>
     <Header />
     <div className='jkl'>
@@ -28,8 +29,9 @@ const Home = () => {
     </ul>
   </div>
   </div>
-  <Footer />
   </div>
+    <Footer />
+    </>
   )
 }
 
